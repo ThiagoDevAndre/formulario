@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, black , rgb(39, 39, 39));
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+h1{
+    padding: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+
+#form-valido{
+    display: none;
+}
+
+input{
+    width: 700px;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+button{
+    width: 700px;
+    height: 80px;
+    background-color: lightgreen;
+    outline: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+
+}
